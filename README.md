@@ -1,7 +1,5 @@
-# me
-personal website
-
-# # Components:
+# Website for Joyce Passananti
+## Components:
 - me!
 - projects
 - experiences
