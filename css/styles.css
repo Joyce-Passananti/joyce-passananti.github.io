@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    font-family: monospace;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.pages a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(79, 75, 114);
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.about {   
+    padding-left: 40px;
+    color: lightslategray;
+    font-size: larger;
+    width: 60%
+}
+
+.headshot {
+    display: block;
+    block-size: 300px;
+    border-style: dashed;
+    border-width: 2px;
+}
