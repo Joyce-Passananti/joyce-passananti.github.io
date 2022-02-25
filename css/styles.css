@@ -36,3 +36,44 @@ body {
     border-style: dashed;
     border-width: 2px;
 }
+
+.projects{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.projects img {
+    display: block;
+    block-size: 300px;
+    box-shadow: 0.2px 0.2px 20px grey;
+    margin: 20px;
+}
+
+.art {
+    display: flex;
+    flex-direction: column;
+}
+
+.art_photos {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.art_photos img {
+    display: block;
+    block-size: 300px;
+    box-shadow: 0.2px 0.2px 20px grey;
+    margin: 20px;
+}
+
+.art a {
+    font-size: 30px;
+    color: rgb(79, 75, 114);
+    font-weight: 600;
+}
