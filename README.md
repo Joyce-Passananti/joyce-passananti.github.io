@@ -1,2 +1,2 @@
 
-Personal site: https://joyce-passananti.github.io/me/
+Personal site: https://joyce-passananti.github.io/
