@@ -5,43 +5,96 @@
     <link rel="stylesheet" href="../css/styles.css">  
 </head>
   <body>
-    <div class="pages"> 
-        <a href="../index.html">Me!</a>
-        <a href="experience.html">Experience</a>
-        <a style="color:#47d5a0">Projects</a>
-        <a href="art.html">Art</a>
+    <div class="heading">
+      <a>joyce passananti</a>
+      <div class="pages"> 
+          <a href="../index.html">about</a>
+          <a style="color:#47d5a0">projects</a>
+          <a href="experience.html">experience</a>
+          <a href="art.html">art</a>
+      </div>
     </div>
     <div class="projects">
       <div class="project">
         <a href="https://devpost.com/software/global-goals" target="_blank">
-          <img src="../assets/projects/globalgoals.png">
+          <img src="../assets/projects/globalgoalscover4.png">
         </a>
-        <!-- <div class="project-description">
-          <h2>Global Goals Hackathon Project</h2>
-          <h3>Excited to announce that Joyce Passananti and I won Best Social Good Hack for our project Global Goals at VenusHacks 
-            2021! We had an amazing, albeit sleepless, time this past weekend building our first web browser game in Phaser.js.
-            Global Goals encourages social activism through a community-oriented app that enables players to grow an oasis of animals 
-            by engaging in justice work through donating to non-profit organizations, sharing causes on social media, and signing 
-            petitions. Our project is hosted on Replit, uses Python, Flask, SQLite. All graphics were designed and drawn by us.
-            <a href="https://lnkd.in/eV6UC9U">Website</a>
-            <a href="https://lnkd.in/eMtZ8gj">YouTube Walkthrough</a>
-            <a href="https://lnkd.in/e3SdugD">Devpost</a>
-          </h3>
-        </div> -->
+        <div class="project-description">
+          <h1>Global Goals</h1>
+          <a>Global Goals is a project I collaborated on with Daria Schifrina for Venus Hacks 2021 which won Best Hack for Social Good. 
+            The project devpost can be accessed <a target="_blank" href="https://lnkd.in/e3SdugD">here</a>, and we have a 
+            <a target="_blank" href="https://lnkd.in/eMtZ8gj">youTube walkthrough</a> for it as well. It's a browser-based game hosted 
+            <a target="_blank" href="https://lnkd.in/eV6UC9U">here</a> that encourages social activism through a community-oriented app 
+            that enables players to grow an oasis of animals by engaging in social justice work. To earn rewards, players can donate to 
+            non-profit organizations, share causes on social media, and sign petitions. Our project is hosted on Replit, uses Python, 
+            Flask, SQLite. All graphics were proudly designed and drawn by us!
+          </a>
+        </div>
+      </div>
+      <div class = project>
+        <a href="../assets/projects/Mobile_Computing_Paper.pdf" target="_blank">
+          <img src="../assets/projects/eyesfreecover.png">  
+        </a>
+        <div class="project-description">
+          <h1>Eyes Free Mobile App</h1>
+          <a>This research project focused on examining mobile services available to the visually impaired community,
+            and culminated in an <a href="https://github.com/Joyce-Passananti/eyes-free-app" target="_blank">application</a> + 
+            <a href="../assets/projects/Mobile_Computing_Paper.pdf" target="_blank">paper</a> describing our research process, app development, 
+            and study findings. Our solution took shape as a centralized, eyes-free application to help blind or low-vision individuals accomplish 
+            many of their day-to-day needs. For dev/evaluation we used the Expo platform and React Native framework, using 
+            libraries and sensors compatible with both Android and iOS: the microphone, accelerometer, and camera. Our backend 
+            is set up with Google Cloud, leveraging Google Cloud APIs for object identification, speech-to-text, text recognition, and text-to-speech.
+          </a>
+        </div>
       </div>
       <div class="project">
-        <a href="https://joyce-passananti.github.io/Music_Gallery/" target="_blank">
-          <img src="../assets/projects/musicGallery.png"> 
-          <!-- <a>Music Gallery Experience</a> -->
+        <a href=" https://github.com/Joyce-Passananti/Music_Gallery" target="_blank">
+          <img src="../assets/projects/musicGallerycover2.png"> 
         </a>
+        <div class="project-description">
+          <h1>Music Gallery</h1>
+          <a>An <a target="_blank" href="https://joyce-passananti.github.io/Music_Gallery/">immersive experience</a>
+             that plays around with generated music and art through many outlets. 
+            For pre-generated songs I used RunwayML to style transfer the photos using various models, and generated the jukebox 
+            tracks with pretrained models as well. The "generate song" page produces a custom track each time and uses tone.js, 
+            while the "create song" page allows a user to interact with a keyboard model to test and record their own song. Overall 
+            this was just a casual exploration of computer/ai-generated music that is definitely unpolished, but fun to play around 
+            with and fun to make! *a-frame is supported best by firefox and takes a few minutes to load all assets*
+          </a>
+        </div>
       </div>
       <div class = project>
         <a href="https://github.com/Joyce-Passananti/WonderlandEscapeRoom" target="_blank">
-          <img src="../assets/projects/wonderland2.png">
-          <!-- <a>ALice In Wonderland Escape Room</a> -->
+          <img src="../assets/projects/wonderlandcover.png">
         </a>
+        <div class="project-description">
+          <h1>ALice In Wonderland Escape Room</h1>
+          <a>I was inspired by all the challenges in Alice and Wonderland, so decided to create an escape-room type game, but in VR. 
+          The world was created using a-frame + models availble on turbosquid. The player sees through the perspective of Alice, and is 
+          prompted to follow a white rabbit to the base of a tree where you then fall down the rabbithole and are transported to wonderland.
+          Except you're stuck in a room, surrounded by strange objects, and a locked door seems to be the only way out. You can find it
+          <a target="_blank" href="https://joyce-passananti.github.io/WonderlandEscapeRoom/">here</a> or watch a quick
+          <a target="_blank" href="https://youtu.be/y3C0XeUVNgY">video of gameplay</a> in the browser!
+          *a-frame is supported best by firefox and takes a few minutes to load all assets*
+          </a>
+        </div>
       </div>
     </div>
   </body>
-
+  <footer>
+    <div class="contact">
+      <div>
+        <h1>Contact</h1>
+        <a>Feel free to reach me at my email: <a style="text-decoration: double; color: rgb(162, 196, 196)" href="mailto: joycep@uchicago.edu">joycep@uchicago.edu</a>
+        <br>or phone: 425-785-0558</a>
+      </div>
+      <div class="icons">
+        <a target="_blank" href="https://github.com/Joyce-Passananti">
+          <img src="../assets/icons/github3_icon.png"> 
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/joyce-passananti-713709190/">
+          <img src="../assets/icons/linkedin3_icon.png"> 
+        </a>
+    </div>
+  </footer>
 </html>
