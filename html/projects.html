@@ -3,6 +3,8 @@
   <head>
     <title>projects</title>
     <link rel="stylesheet" href="../css/styles.css">  
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
 </head>
   <body>
     <div class="heading">
@@ -17,6 +19,33 @@
     <div class="projects">
       <div class="project">
         <a href="" target="_blank">
+          <img src="../assets/projects/littletrackscover.png">
+        </a>
+        <div class="project-description">
+          <h1>Little Tracks, Big Heart</h1>
+          <a>Little Tracks, Big Heart is an exploration of how video games can be designed to help educate and encourage 
+            activism from players, while maintaining the fun and rewarding aspects of gaming. Video games have rapidly 
+            become integrated in almost every part of society- from educational uses to therapy to career options, and have 
+            the potential for so much more. I'm personally very passionate about environmental awareness, and thought it 
+            would be an interesting endeavor to create a game that incorporates current issues into the gameplay, followed 
+            by an option for players to enact real change. To do so, I designed and created several levels using Unity 
+            3D that address certain environmental challenges, and upon completion of each level the player is directed 
+            to a relevant cause on change.org. In this way players can become aware of issues, invested in them, and then 
+            active in the solution- whether it's signing a petition, sharing on social media, or making a donation to a cause.
+            <!-- <a href="../assets/projects/Maad_project.zip" download="Little Tracks, Big Heart">Download</a> the game to play it yourself! -->
+          </a>
+          <!-- <script>
+            $(document).ready(function () {
+              $("#link").click(function (e) {
+                  e.preventDefault();
+                  window.location.href = "../assets/projects/Maad project";
+              });
+            });
+          </script> -->
+        </div>
+      </div>
+      <div class="project">
+        <a href="https://tootiredtobeinspired.netlify.app/" target="_blank">
           <img src="../assets/projects/taskmappercover.png">
         </a>
         <div class="project-description">
@@ -24,10 +53,12 @@
           <a>TaskMapper aims to help students with managing both personal tasks and academic assignments by providing a platform 
             to track and incentivize work completion with meditative exploration. The browser based platform/game allows users to 
             optimally track their tasks through a consolidated list that includes assignments and exams automatically imported from Canvas, 
+            <!-- (the primary course management tool used by high schools + universities),  -->
             with the option to modify and add as needed. The task list will be paired with a meditative world such that the 
             user can unlock more areas to explore by completing tasks, and the world will contain varying breathing and meditative 
-            exercises to allow users to stay focused and relaxed while working. The platform was built with a-frame and javascript, using 
-            the Canvas API. This project is currently in progress, check back later for updates!
+            exercises to allow users to stay focused and relaxed while working. The platform was built with a React framework alongside a-frame and javascript, and uses 
+            the Canvas API. This project is currently published <a href="https://tootiredtobeinspired.netlify.app/" target="_blank">here</a>, 
+            and the codebase is located at our <a href="https://github.com/rajanisamir/tttbi" target="_blank">github repo</a>. Feel free to check it out!
           </a>
         </div>
       </div>
@@ -60,6 +91,25 @@
             many of their day-to-day needs. For dev/evaluation we used the Expo platform and React Native framework, using 
             libraries and sensors compatible with both Android and iOS: the microphone, accelerometer, and camera. Our backend 
             is set up with Google Cloud, leveraging Google Cloud APIs for object identification, speech-to-text, text recognition, and text-to-speech.
+          </a>
+        </div>
+      </div>
+      <div class = project>
+        <a href="https://www.youtube.com/watch?v=RVHXWP3fS0k" target="_blank">
+          <img src="../assets/projects/mlteachingappcover.png">
+        </a>
+        <div class="project-description">
+          <h1>ML Teaching App</h1>
+          <a>This research project was the end product of an internship in the Micrsoft Research CHIL group to make machine teaching 
+            more accessible to everyone, not just to machine learning experts. Teaching for machine learning requires humans to put what 
+            they know into a computer, often a time-consuming task- what if a there was a way to help that human do it 
+            in small bites? We developed an app that allows users to easily create and train their own machine learning model to classify their data into categories to 
+            organize and personalize their information flow. After performing a competitive analysis of services already 
+            available, we designed and developed this mobile application to improve upon existing products while incorporating 
+            new services using Expo, React Native, and Typescript/C#. Here is a <a target="_blank" href="https://www.youtube.com/watch?v=RVHXWP3fS0k">video</a> 
+            showing app usage/interaction as well as an <a target="_blank" 
+            href="https://www.microsoft.com/en-us/research/blog/equal-parts-passion-skill-key-microsoft-research-high-school-intern-projects/#:~:text=Mobile%20app%20for%20machine%20teaching%20on%20the%20go">article</a> 
+            published about the project by the Microsoft Research blog.
           </a>
         </div>
       </div>
