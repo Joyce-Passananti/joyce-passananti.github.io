@@ -3,7 +3,9 @@
   <head>
     <title>Homepage</title>
     <meta property="og:image" content="assets/website_thumbnail.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">  
+    <script src="../scripts/functions.js"></script>
 </head>
   <body >
     <div class="heading">
@@ -11,21 +13,88 @@
       <div class="pages"> 
         <a style="color:#47d5a0">about</a>
         <a href="html/projects.html">projects</a>
-        <a href="html/experience.html">experience</a>
+        <a href="html/research.html">research</a>
         <a href="html/art.html">art</a>
       </div>
     </div>
     <div class="me">
-        <img class="headshot" src="../assets/headshots/headshot_fun.jpg">
+        <img class="headshot" src="../assets/headshots/headshot.jpeg">
         <div class="about">
-          <h3>Hello, I'm Joyce! I'm currently completing my PhD in Human-Computer-Interaction at UCSB, after having recently 
+          <h2>about</h2>
+          <a>Hello, I'm Joyce! I'm currently completing my PhD in Human-Computer-Interaction at UCSB, after having recently 
            graduated from the University of Chicago with a BS in computer science and BA in media art & design. 
            I'm passionate about doing research in HCI and related areas and enjoy game design/dev as a hobby. 
            <!-- The intersection of programming and art excites me, and in my free time I like to explore new ways of creating. -->
-          </h3>
+          </a>
+          <br><br>
+          <a href="\assets\joycepassananti_resume.PDF" target="_blank" class="cv">curriculum vitae</a>
         </div>
     </div>
-    <div class="pages-overview">
+    <div>
+      <h1>Research </h1>
+      <a href="html/research.html">all research --></a>
+    </div>
+    <div>
+      <h1>Featured Projects</h1>
+      <div class="projects">
+        <div class="project" onClick="vert_expand(this)">
+          <a >
+            <img src="../assets/projects/littletrackscover2.png">
+          </a>
+          <div class="project-description">
+            <h1 >Little Tracks, Big Heart</h1>
+            <b>Unity3D, environmental activism</b><br>
+            <a>Little Tracks, Big Heart is an exploration of how video games can be designed to help educate and encourage 
+              activism from players, while maintaining the fun and rewarding aspects of gaming. Video games have rapidly 
+              become integrated in almost every part of society- from educational uses to therapy to career options, and have 
+              the potential for so much more. I'm personally very passionate about environmental awareness, and thought it 
+              would be an interesting endeavor to create a game that incorporates current issues into the gameplay, followed 
+              by an option for players to enact real change. To do so, I designed and created several levels using Unity 
+              3D that address certain environmental challenges, and upon completion of each level the player is directed 
+              to a relevant cause on change.org. In this way players can become aware of issues, invested in them, and then 
+              active in the solution- whether it's signing a petition, sharing on social media, or making a donation to a cause.
+              <!-- <a href="../assets/projects/Maad_project.zip" download="Little Tracks, Big Heart">Download</a> the game to play it yourself! -->
+            </a>
+          </div>
+        </div>
+        <div class ="project" onClick="vert_expand(this)">
+          <a >
+            <img src="../assets/projects/globalgoalscover4.png">
+          </a>
+          <div class="project-description">
+            <h1>Global Goals</h1>
+            <b>Game dev, social justice</b><br>
+            <a >Global Goals is a project I collaborated on with Daria Schifrina for Venus Hacks 2021 which won <b>Best Hack for Social Good</b>. 
+              The project devpost can be accessed <a target="_blank" href="https://lnkd.in/e3SdugD">here</a>, and we have a 
+              <a target="_blank" href="https://lnkd.in/eMtZ8gj">YouTube walkthrough</a> for it as well. It's a browser-based game hosted 
+              <a target="_blank" href="https://lnkd.in/eV6UC9U">here</a> that encourages social activism through a community-oriented app 
+              that enables players to grow an oasis of animals by engaging in social justice work. To earn rewards, players can donate to 
+              non-profit organizations, share causes on social media, and sign petitions. Our project is hosted on Replit, uses Python, 
+              Flask, SQLite. All graphics were proudly designed and drawn by us!
+            </a>
+          </div>
+        </div>
+        <div class ="project" onClick="vert_expand(this)">
+          <a>
+            <img src="../assets/projects/eyesfreecover.png">  
+          </a>
+          <div class="project-description">
+            <h1>Eyes Free Mobile App</h1>
+            <b>Mobile app, accessibility</b><br>
+            <a>This research project focused on examining mobile services available to the visually impaired community,
+              and culminated in an <a href="https://github.com/Joyce-Passananti/eyes-free-app" target="_blank">application</a> + 
+              <a href="../assets/projects/Mobile_Computing_Paper.pdf" target="_blank">paper</a> describing our research process, app development, 
+              and study findings. Our solution took shape as a centralized, eyes-free application to help blind or low-vision individuals accomplish 
+              many of their day-to-day needs. For dev/evaluation we used the Expo platform and React Native framework, using 
+              libraries and sensors compatible with both Android and iOS: the microphone, accelerometer, and camera. Our backend 
+              is set up with Google Cloud, leveraging Google Cloud APIs for object identification, speech-to-text, text recognition, and text-to-speech.
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="html/projects.html">all projects --></a>
+    </div>
+    <!-- <div class="pages-overview">
       <a href="/html/projects.html">
         <div class="projects-overview">
           <h2>Projects</h2>
@@ -35,7 +104,7 @@
           </p>
         </div>
       </a>
-      <a href="/html/experience.html">
+      <a href="/html/research.html">
         <div class="experience-overview">
           <h2>Experience</h2>
           <p>I'm interested in HCI research and am currently a Graduate Student Researcher in the Four Eyes Lab at UCSB. I've 
@@ -54,7 +123,7 @@
         </div>
       </div>
       </a>
-    </div>
+    </div> -->
   </body>
   <footer>
     <div class="contact">
