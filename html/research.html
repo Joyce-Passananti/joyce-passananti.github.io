@@ -3,11 +3,16 @@
   <head>
     <title>research</title>
     <link rel="stylesheet" href="../css/styles.css">  
+    <script src="../scripts/functions.js"></script>
+
 </head>
   <body>
     <div class="heading">
       <a>joyce passananti</a>
-      <div class="pages"> 
+      <div onClick="showMenu()" class="menu">
+        <img src="/assets/icons/menu_bar2.png">
+      </div>
+      <div id="pages" class="closeMenu"> 
           <a href="../index.html">about</a>
           <a href="projects.html">projects</a>
           <a style="color:#47d5a0">research</a>
@@ -15,7 +20,82 @@
       </div>
     </div>
     
-    
+    <div class="research">
+      <div class="research-area">
+      <h1>AR/VR</h1>
+        <div class="research-project">
+          <b>Augemented Cognition</b>
+          <li>Currently developing a user study on the MagicLeap + EEG headset using Unity to explore the relationship between eye tracking + brain signals.</li>
+        </div>
+        <div class="research-project">
+          <b>Level-of-Detail AR</b> 
+          <li>Paper conditionally accepted to IEEE Conference 2023: applies concept of responsive web design to mixed reality.</li> 
+          <li>Dynamically adapts content of AR applications to efficiently display information on available screen estate + increase performance + satisfaction.</li>
+        </div>
+        <div class="research-project">
+          <b>CohesiveAR</b> 
+          <li>An application that allows game developers to apply textures from the surrounding to virtual game objects to create a more cohesive and realistic environment.</li> 
+          <li>A developer can utilize our program to procure the texture of a flat surface, then
+            <ul>
+            <li>Control the size and orientation for the patch of texture lifted</li>
+            <li>Modify/place virtual objects in scene with the procured texture</li>
+            <li>Allow physics interaction of game objects with users gestures</li>
+            </ul></li>
+          <li>CohesiveAR builds upon previous work to extend texture mapping to AR objects, allowing elements of the physical world to be translated to virtual objects. </li>
+        </div>
+      </div>
+      <div class="research-area">
+      <h1>Computational Fabrication</h1>
+        <div class="research-project">
+          <b>Thermal Router</b>
+          <li>A fusion360 add-on that helps anyone, regardless of prior experience or expertise, design thermally sound devices. 
+            Example designs we identified as relevant and focused on included 3D printed watch cases, wearable heaters, and raspberry pi cases. A user can choose to 
+            either augment their design with conductive material, increase airflow through holes in chosen surfaces, or add on a customized silicone to disperse 
+            heat from sources that would otherwise be at risk of overheating. </li> 
+            <li>My contributions included helping design the tool through many iterations, scripting significant portions of the addon in python after extensive research 
+              of the Fusion360 API, and running a large-scale user study + analyzing results.</li>
+              <li>Our paper is aimed for publication in UIST 2023.</li>
+            <!--  While I had prior experience with python and different CAD programs, writing a 
+            script to manipulate an unknown design: considering the geometry, simulating heat flow through 
+            the object, designing multiple solutions to distribute heat efficiently and cost-effectively, and 
+            calculating the best result was a considerable challenge. The addon works on top of the program 
+            and can thus be applied to anyone's design; examples we identified as relevant and focused on 
+            included 3D printed watch cases, wearable heaters, and raspberry pi cases. A user can choose to 
+            either augment their design with conductive material, increase airflow through holes in chosen 
+            surfaces, or add on a customized silicone to disperse heat from sources that would otherwise be at 
+            risk of overheating. Automating these solutions so that an inexperienced user can easily optimize 
+            their design further required a simple and intuitive interface, which proved to be a learning 
+            exercise in testing and incorporating user feedback. Following the tool's completion, I designed and 
+            conducted the user research study from start to finish. I reached out across many platforms to find 
+            study participants with a variety of backgrounds and ran the study over zoom, using multiple 
+            computers with remote user control to simulate as real an experience as possible. I summarized the 
+            findings to my team, analyzing the results and noting critical feedback, which we then discussed 
+            and presented in our paper. Through this experience I acquired many new skills in both the 
+            technical and management realms and demonstrated my ability to learn quickly and adapt well in 
+            new or unfamiliar situations.-->
+          </li> 
+        </div>
+        <div class="research-project">
+          <b>LED Glasses</b>
+          <li>A research project exploring ways in which adversarial ML can be used to generate digital protection patterns, then implemented through wearable 
+            devices to protect against facial recognition by unauthorized software. </li>
+        </div>
+      </div>
+      <div class="research-area">
+      <h1>Environmental + Sustainability Concerns</h1>
+        <div class="research-project">
+          <b>EcoEDA</b>
+          <li>An open-source tool/resource-library to facilitate reuse of electronic components in designing new devices + reduce e-waste. Full paper submitted to CHI 2023.</li>    
+        </div>
+        <div class="research-project">
+          <b>Little Tracks, Big Heart</b>
+          <li>An exploration of how video games can be designed to help educate and encourage 
+            activism from players, while maintaining the fun and rewarding aspects of gaming. </li>
+            <li>The gameplay study consists of 
+            several levels that address certain environmental challenges, and upon completion of each level the player is directed 
+            to a relevant cause on change.org.</li>    
+        </div>    
+    </div>
     <!-- <div class="experience"> 
       <h1>Software Development</h1>
         <div class="job">

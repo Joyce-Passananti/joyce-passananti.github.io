@@ -9,7 +9,10 @@
   <body>
     <div class="heading">
       <a>joyce passananti</a>
-      <div class="pages"> 
+      <div onClick="showMenu()" class="menu">
+        <img src="/assets/icons/menu_bar2.png">
+      </div>
+      <div id="pages" class="closeMenu"> 
           <a href="../index.html">about</a>
           <a style="color:#47d5a0">projects</a>
           <a href="research.html">research</a>
@@ -36,25 +39,6 @@
             to a relevant cause on change.org. In this way players can become aware of issues, invested in them, and then 
             active in the solution- whether it's signing a petition, sharing on social media, or making a donation to a cause.
             <!-- <a href="../assets/projects/Maad_project.zip" download="Little Tracks, Big Heart">Download</a> the game to play it yourself! -->
-          </a>
-        </div>
-      </div>
-      <div class ="project" onClick="expand(this)">
-        <a>
-          <img src="../assets/projects/taskmappercover.png">
-        </a>
-        <div class="project-description">
-          <h1>TaskMapper</h1>
-          <b>Task management, Game dev</b><br>
-          <a>TaskMapper aims to help students with managing both personal tasks and academic assignments by providing a platform 
-            to track and incentivize work completion with meditative exploration. The browser based platform/game allows users to 
-            optimally track their tasks through a consolidated list that includes assignments and exams automatically imported from Canvas, 
-            <!-- (the primary course management tool used by high schools + universities),  -->
-            with the option to modify and add as needed. The task list will be paired with a meditative world such that the 
-            user can unlock more areas to explore by completing tasks, and the world will contain varying breathing and meditative 
-            exercises to allow users to stay focused and relaxed while working. The platform was built with a React framework alongside a-frame and javascript, and uses 
-            the Canvas API. This project is currently published <a href="https://tootiredtobeinspired.netlify.app/" target="_blank">here</a>, 
-            and the codebase is located at our <a href="https://github.com/rajanisamir/tttbi" target="_blank">github repo</a>. Feel free to check it out!
           </a>
         </div>
       </div>
@@ -94,6 +78,42 @@
       </div>
       <div class ="project" onClick="expand(this)">
         <a>
+          <img src="../assets/projects/wonderlandcover.png">
+        </a>
+        <div class="project-description">
+          <h1>ALice In Wonderland Escape Room</h1>
+          <b>VR, Game dev</b><br>
+          <a>I was inspired by all the challenges in Alice and Wonderland, so decided to create an escape-room type game, but in VR. 
+          The world was created using a-frame + models availble on turbosquid. The player sees through the perspective of Alice, and is 
+          prompted to follow a white rabbit to the base of a tree where you then fall down the rabbithole and are transported to wonderland.
+          Except you're stuck in a room, surrounded by strange objects, and a locked door seems to be the only way out. You can find it
+          <a target="_blank" href="https://joyce-passananti.github.io/WonderlandEscapeRoom/">here</a> or watch a quick
+          <a target="_blank" href="https://youtu.be/y3C0XeUVNgY">video of gameplay</a> in the browser!
+          *a-frame is supported best by firefox and takes a few minutes to load all assets*
+          </a>
+        </div>
+      </div>
+      <div class ="project" onClick="expand(this)">
+        <a>
+          <img src="../assets/projects/taskmappercover.png">
+        </a>
+        <div class="project-description">
+          <h1>TaskMapper</h1>
+          <b>Task management, Game dev</b><br>
+          <a>TaskMapper aims to help students with managing both personal tasks and academic assignments by providing a platform 
+            to track and incentivize work completion with meditative exploration. The browser based platform/game allows users to 
+            optimally track their tasks through a consolidated list that includes assignments and exams automatically imported from Canvas, 
+            <!-- (the primary course management tool used by high schools + universities),  -->
+            with the option to modify and add as needed. The task list will be paired with a meditative world such that the 
+            user can unlock more areas to explore by completing tasks, and the world will contain varying breathing and meditative 
+            exercises to allow users to stay focused and relaxed while working. The platform was built with a React framework alongside a-frame and javascript, and uses 
+            the Canvas API. This project is currently published <a href="https://tootiredtobeinspired.netlify.app/" target="_blank">here</a>, 
+            and the codebase is located at our <a href="https://github.com/rajanisamir/tttbi" target="_blank">github repo</a>. Feel free to check it out!
+          </a>
+        </div>
+      </div>
+      <div class ="project" onClick="expand(this)">
+        <a>
           <img src="../assets/projects/mlteachingappcover.png">
         </a>
         <div class="project-description">
@@ -126,23 +146,6 @@
             while the "create song" page allows a user to interact with a keyboard model to test and record their own song. Overall 
             this was just a casual exploration of computer/ai-generated music that is definitely unpolished, but fun to play around 
             with and fun to make! *a-frame is supported best by firefox and takes a few minutes to load all assets*
-          </a>
-        </div>
-      </div>
-      <div class ="project" onClick="expand(this)">
-        <a>
-          <img src="../assets/projects/wonderlandcover.png">
-        </a>
-        <div class="project-description">
-          <h1>ALice In Wonderland Escape Room</h1>
-          <b>VR, Game dev</b><br>
-          <a>I was inspired by all the challenges in Alice and Wonderland, so decided to create an escape-room type game, but in VR. 
-          The world was created using a-frame + models availble on turbosquid. The player sees through the perspective of Alice, and is 
-          prompted to follow a white rabbit to the base of a tree where you then fall down the rabbithole and are transported to wonderland.
-          Except you're stuck in a room, surrounded by strange objects, and a locked door seems to be the only way out. You can find it
-          <a target="_blank" href="https://joyce-passananti.github.io/WonderlandEscapeRoom/">here</a> or watch a quick
-          <a target="_blank" href="https://youtu.be/y3C0XeUVNgY">video of gameplay</a> in the browser!
-          *a-frame is supported best by firefox and takes a few minutes to load all assets*
           </a>
         </div>
       </div>

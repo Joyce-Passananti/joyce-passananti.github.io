@@ -27,3 +27,11 @@ function vert_expand(p) {
         p.className = "vproject-selected";   
     }
 }
+
+function showMenu() {
+    menu = document.getElementById("pages");
+    if(menu.className == "openMenu")
+        menu.className = "closeMenu";
+    else
+        menu.className = "openMenu";
+}
