@@ -58,7 +58,7 @@ body {
         
     }
     .menu img{
-height: 35px;
+        height: 35px;
     }
 
     .openMenu {
@@ -79,7 +79,7 @@ height: 35px;
         background: white;
     }
   }
-  
+ 
 
 /* about me page */
 .me {   
@@ -101,17 +101,39 @@ height: 35px;
     border-style: solid;
     border-color: #b3dce4;
 }
-@media screen and (max-width: 1600px) {
-    .headshot {
-        width: 400px;
-    }
-}
 .about {
     padding-left: 5vw;
     font-size: 25px;
     color: #b3dce4;
     width: 45vw;
 }
+@media screen and (max-width: 1600px) {
+    .headshot {
+        width: 400px;
+    }
+    .about {
+        width: 80%;
+        padding-left: 0px;
+    }
+} 
+
+/* mobile */
+  @media screen and (max-width: 600px) {    
+    .headshot {
+        width: 80%;
+        
+    }
+    body {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .heading {
+        font-size: 30px;
+    }
+    .about {
+        font-size: 20px;
+    }
+  }
 
 .about a {
     color: white;
