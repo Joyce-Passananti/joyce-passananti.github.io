@@ -132,6 +132,8 @@ body {
     }
     .about {
         font-size: 20px;
+        width: 80%;
+        padding-left: 0px;
     }
   }
 
