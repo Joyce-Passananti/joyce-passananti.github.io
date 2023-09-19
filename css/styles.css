@@ -174,7 +174,7 @@ hr.solid {
 
 .link {
     color: white;
-    font-style: italic;
+    /* font-style: italic; */
     text-decoration: none;
     padding-left: 0%;
 }
@@ -289,19 +289,26 @@ hr.solid {
 
 .research h1 {
     color: #b9b3ea;
-    margin-bottom: 0px;
+    font-weight: 400;
+    /* margin-bottom: 0px;
     font-size: 30px;
-    margin-inline: 20px;
+    margin-inline: 20px; */
 }
 
-.research b {
-    font-weight: 400;
+.research h3 {
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+.research i {
+    color: beige;
 }
 
 .research-area {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background: #2e6c84;
 }
 
 .research-project {
@@ -310,7 +317,7 @@ hr.solid {
     display: block;
     margin: 20px;
     padding: 20px;
-    font-size: 18px;
+    font-size: inherit;
 }
 
 .research-project li {
@@ -319,8 +326,7 @@ hr.solid {
 }
 
 .research ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-block: 10px;
 
 }
 

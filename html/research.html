@@ -8,7 +8,7 @@
 </head>
   <body>
     <div class="heading">
-      <a>joyce passananti</a>
+      <a>Joyce Passananti</a>
       <div onClick="showMenu()" class="menu">
         <img src="/assets/icons/menu_bar2.png">
       </div>
@@ -21,79 +21,81 @@
     </div>
     
     <div class="research">
+      <h1>Publications</h1>
       <div class="research-area">
-      <h1>AR/VR</h1>
+
         <div class="research-project">
-          <b>Augemented Cognition</b>
-          <li>Currently developing a user study on the MagicLeap + EEG headset using Unity to explore the relationship between eye tracking + brain signals.</li>
+          <a href="https://joyce-passananti.github.io/assets/SculptAR.pdf" target="_blank" class="link"><h3>SculptAR: Direct Manipulations of Machine Toolpaths in
+            Augmented Reality for 3D Clay Printing</h3> </a>
+          <ul><b>Joyce Passananti</b>, Ana Cardenas, Jennifer Jacobs, Tobias Hollerer</ul>
+          <ul><i>UIST Demo Track 2023</i></ul>
+          <ul>We present SculptAR, an AR system for direct manipulation of
+            toolpaths in 3D. The visualized path represents the machine path
+            that will be followed by an extruder to print the clay piece. With
+            SculptAR we seek to support fabrication workflows where clay
+            artists can previsualize and dimension their vessel in the fabrication context and manipulate the shape textures and forms created
+            by these toolpaths in an immersive 3D context.</ul>
         </div>
+
         <div class="research-project">
-          <a href="https://joyce-passananti.github.io/assets/Level-of-DetailAR.pdf" target="_blank" class="link"><b>Level-of-Detail AR</b> </a>
-          <li>Dynamically adapts content of AR applications to efficiently display information on available screen estate + increase performance + satisfaction.</li>
+          <a href="https://joyce-passananti.github.io/assets/Level-of-DetailAR.pdf" target="_blank" class="link"><h3>Level-of-Detail AR: Dynamically Adjusting Augmented Reality Level of Detail Based on Visual Angle</h3> </a>
+          <ul>A. Wysopal, V. Ross, <b>J. Passananti</b>, K. Yu, B. Huynh and T. Hollerer</ul>
+          <ul><i>IEEE VR 2023</i></ul>
+          <ul>Dynamically adjusting the content of augmented reality (AR) applications to efficiently display information best fitting the available
+            screen estate may be important for user performance and satisfaction. We present a
+            Level-of-Detail AR mechanism to improve the usability of AR applications at any relative size. Our mechanism dynamically renders
+            textual and interactable content based on its legibility, interactability, and viewability respectively.</ul>
         </div>
+  
         <div class="research-project">
-          <b>CohesiveAR</b> 
-          <li>An application that allows game developers to apply textures from the surrounding to virtual game objects to create a more cohesive and realistic environment.</li> 
-          <li>A developer can utilize our program to procure the texture of a flat surface, then
+          <h3>ThermalRouter: Enabling Users to Design Thermally-Sound Devices</h3>
+          <ul>Alex Mazursky, Borui Li, Shan-Yuan Teng, Dasha Shifrina, <b>Joyce Passananti</b>, Svitlana Midianko, Pedro Lopes</ul>
+          <ul><i>UIST 2023</i></ul>
+          <ul>We created a CAD plugin that assists users with to improve the thermal performance of their models. ThermalRouter automatically converts regions of the model to be
+            made from thermally-conductive materials (such as nylon or metallic-silicone). The key is that ThermalRouter automatically simulates the thermal
+            performance of many possible heat channel configurations and presents the user with the most thermally-sound design
+            (e.g., lowest temperature). </ul>
+        </div>   
+
+        <div class="research-project">
+          <h3>ecoEDA: Recycling E-waste During Electronics Design</h3>
+          <ul>Jasmine Lu, Beza Desta, K. D. Wu, Romain Nith, <b>Joyce Passananti</b>, Pedro Lopes</ul>
+          <ul><i>UIST 2023</i></ul>
+          <ul>We present an interactive tool that enables electronics designers to explore recycling electronic components during the design
+            process. We accomplish this via (1) creating suggestions to assist users in identifying and designing with recycled
+            components; and (2) maintaining a library of useful data relevant to reuse (e.g., allowing users to find which devices
+            contain which components).</ul>
+        </div>
+
+
+      </div>
+
+      <h1>Current Research</h1>
+      <div class="research-area">
+        <div class="research-project">
+          <h3>Augmented Cognition: EEG in Mobile AR</h3>
+          <ul>Currently developing a user study on the MagicLeap + EEG headset using Unity to explore the relationship between eye tracking + brain signals across sitting, head movement, and walking conditions in AR.</ul>
+        </div>
+    
+        <div class="research-project">
+          <h3>CohesiveAR</h3> 
+          <ul>An application that allows game developers to apply textures from the surrounding to virtual game objects to create a more cohesive and realistic environment.</ul> 
+          <ul>A developer can utilize our program to procure the texture of a flat surface, then
             <ul>
             <li>Control the size and orientation for the patch of texture lifted</li>
             <li>Modify/place virtual objects in scene with the procured texture</li>
             <li>Allow physics interaction of game objects with users gestures</li>
-            </ul></li>
-          <li>CohesiveAR builds upon previous work to extend texture mapping to AR objects, allowing elements of the physical world to be translated to virtual objects. </li>
+            </ul></ul>
+          <ul>CohesiveAR builds upon previous work to extend texture mapping to AR objects, allowing elements of the physical world to be translated to virtual objects. </ul>
         </div>
-      </div>
-      <div class="research-area">
-      <h1>Computational Fabrication</h1>
-        <div class="research-project">
-          <b>Thermal Router</b>
-          <li>A fusion360 add-on that helps anyone, regardless of prior experience or expertise, design thermally sound devices. 
-            Example designs we identified as relevant and focused on included 3D printed watch cases, wearable heaters, and raspberry pi cases. A user can choose to 
-            either augment their design with conductive material, increase airflow through holes in chosen surfaces, or add on a customized silicone to disperse 
-            heat from sources that would otherwise be at risk of overheating. </li> 
-            <li>My contributions included helping design the tool through many iterations, scripting significant portions of the addon in python after extensive research 
-              of the Fusion360 API, and running a large-scale user study + analyzing results.</li>
-              <li>Our paper is aimed for publication in UIST 2023.</li>
-            <!--  While I had prior experience with python and different CAD programs, writing a 
-            script to manipulate an unknown design: considering the geometry, simulating heat flow through 
-            the object, designing multiple solutions to distribute heat efficiently and cost-effectively, and 
-            calculating the best result was a considerable challenge. The addon works on top of the program 
-            and can thus be applied to anyone's design; examples we identified as relevant and focused on 
-            included 3D printed watch cases, wearable heaters, and raspberry pi cases. A user can choose to 
-            either augment their design with conductive material, increase airflow through holes in chosen 
-            surfaces, or add on a customized silicone to disperse heat from sources that would otherwise be at 
-            risk of overheating. Automating these solutions so that an inexperienced user can easily optimize 
-            their design further required a simple and intuitive interface, which proved to be a learning 
-            exercise in testing and incorporating user feedback. Following the tool's completion, I designed and 
-            conducted the user research study from start to finish. I reached out across many platforms to find 
-            study participants with a variety of backgrounds and ran the study over zoom, using multiple 
-            computers with remote user control to simulate as real an experience as possible. I summarized the 
-            findings to my team, analyzing the results and noting critical feedback, which we then discussed 
-            and presented in our paper. Through this experience I acquired many new skills in both the 
-            technical and management realms and demonstrated my ability to learn quickly and adapt well in 
-            new or unfamiliar situations.-->
-          </li> 
-        </div>
-        <div class="research-project">
-          <b>LED Glasses</b>
-          <li>A research project exploring ways in which adversarial ML can be used to generate digital protection patterns, then implemented through wearable 
-            devices to protect against facial recognition by unauthorized software. </li>
-        </div>
-      </div>
-      <div class="research-area">
-      <h1>Environmental + Sustainability Concerns</h1>
-        <div class="research-project">
-          <b>EcoEDA</b>
-          <li>An open-source tool/resource-library to facilitate reuse of electronic components in designing new devices + reduce e-waste. Full paper submitted to CHI 2023.</li>    
-        </div>
-        <div class="research-project">
+        <!-- <div class="research-project">
           <b>Little Tracks, Big Heart</b>
           <li>An exploration of how video games can be designed to help educate and encourage 
             activism from players, while maintaining the fun and rewarding aspects of gaming. </li>
             <li>The gameplay study consists of 
             several levels that address certain environmental challenges, and upon completion of each level the player is directed 
             to a relevant cause on change.org.</li>    
-        </div>    
+        </div>     -->
     </div>
     <!-- <div class="experience"> 
       <h1>Software Development</h1>
