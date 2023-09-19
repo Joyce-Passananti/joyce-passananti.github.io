@@ -174,10 +174,14 @@ hr.solid {
 
 .link {
     color: white;
-    /* font-style: italic; */
+    font-style: italic;
     text-decoration: none;
     padding-left: 0%;
 }
+
+/* .about .link {
+    font-style: italic;
+} */
 
 .link:hover {
     text-decoration: underline;
@@ -327,7 +331,11 @@ hr.solid {
 
 .research ul {
     margin-block: 10px;
+}
 
+.research a {
+    color: lightskyblue;
+    font-style: normal;
 }
 
 /* 
