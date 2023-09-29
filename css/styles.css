@@ -288,7 +288,7 @@ hr.solid {
     align-items: flex-start;
     align-self: center;
     /* background: #2e6c84; */
-    width: 80%;
+    width: 70%;
 }
 
 .research h1 {
@@ -300,7 +300,7 @@ hr.solid {
 }
 
 .research h3 {
-    margin-top: 0px;
+    margin: 0px;
     font-weight: 600;
 }
 
@@ -313,6 +313,7 @@ hr.solid {
     flex-direction: column;
     width: 100%;
     background: #2e6c84;
+    padding-block: 10px;
 }
 
 .research-project {
@@ -320,8 +321,8 @@ hr.solid {
     background: #2e6c84;
     display: block;
     margin: 20px;
-    padding: 20px;
-    font-size: inherit;
+    padding-inline: 20px;
+    font-size: initial;
 }
 
 .research-project li {
@@ -330,7 +331,8 @@ hr.solid {
 }
 
 .research ul {
-    margin-block: 10px;
+    margin-block: 5px;
+    padding: initial;
 }
 
 .research a {
